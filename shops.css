@@ -1,0 +1,101 @@
+*{
+  font-family: 'Nova Flat', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+  color: white;
+  background-color: #080708;
+}
+
+#name{
+  color: #F64740;
+  font-weight: bold;
+}
+
+.card{
+  background-color: #fff;
+  color:black;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin: 10px;
+  width: 300px;
+  height: 160px;
+  border-radius: 20px;
+  border-left: 15px solid #F64740;
+}
+
+.old a{
+  text-decoration: none;
+  color:white;
+  background-color: #080708;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+h3{
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+.shops{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 65px;
+}
+
+#b1{
+  background-color: #1F72BD;
+}
+
+#b2{
+  background-color: #F64740;
+}
+
+#b3{
+  background-color: #FFA737;
+}
+
+.add img{
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+.add h2{
+  margin-top: -10px;
+  text-align: center;
+}
+
+.add a{
+  text-decoration: none;
+  color: #080708;
+}
+
+.wrapper{
+  display: flex;
+}
+
+.wrapper img{
+  margin: 8px;
+}
+
+.edit{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+  margin-bottom: 70px;
+}
+
+.add{
+  border: none;
+}
+
+.edit img{
+  background-color: #F64740;
+  padding: 5px;
+  border-radius: 10px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Shop</title>
+  <link rel="stylesheet" href="shopform.css">
+</head>
+<body>
+  <div class="card">
+    <div className="addprod">
+        <h1>Add Shop</h1>
+        <form>
+          <div>
+            <label for="NameEn">Shop Name (In English): </label>
+            <input type="text" name="NameEn" id="NameEn" required />
+          </div>
+          <div>
+            <label for="AddrEn">Shop Address (In English): </label>
+            <input type="text" name="AddrEn" id="AddrEn" required />
+          </div>
+          <div>
+            <label for="NameTa">Shop Name (In Tamil): </label>
+            <input type="text" name="NameTa" id="NameTa" required />
+          </div>
+          <div>
+            <label for="AddrTa">Shop Address (In Tamil): </label>
+            <input type="text" name="AddrTa" id="AddrTa" required />
+          </div>
+          <div id="flexbuttons">
+            <input type="submit" value="Submit" name="Submit" id="Submit" class="button" /><br>
+            <input type="button" value="English To Tamil (For auto text conversion of english field to tamil)" name="EtoT" id="EtoT" class="button" />
+          </div>   
+          </form>
+      </div>
+  </div>
+</body>
+</html>

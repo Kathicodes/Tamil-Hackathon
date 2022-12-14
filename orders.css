@@ -1,0 +1,103 @@
+*{
+  font-family: 'Nova Flat', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+  color: white;
+  background-color: #080708;
+}
+
+.notready #name{
+  color: #F64740;
+  font-weight: bold;
+}
+
+.card{
+  background-color: #fff;
+  color:black;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin: 10px;
+  width: 420px;
+  height: 180px;
+  border-radius: 20px;
+}
+
+.ready{
+    border-left: 15px solid #1FB141;
+}
+
+.notready{
+    border-left: 15px solid #F64740;
+}
+
+.ready #name{
+  color: #1FB141;
+  font-weight: bold;
+}
+
+.flexcard{
+  display: flex;
+  align-items: center;
+}
+
+.card img{
+  margin-right: 10px;
+  height: 90px;
+  width: 90px;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+  background-color: #080708;
+  padding: 12px;
+  border-radius: 10px;
+  margin-left: 95px;
+}
+
+.notify{
+  margin-left: 10px !important;
+}
+
+.b1{
+  background-color: #1F72BD;
+}
+
+.b2{
+  background-color: #F64740;
+}
+
+.b3{
+  background-color: #1FB141;
+}
+
+.readyorders{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 15px;
+}
+
+.notreadyorders{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 15px;
+}
+
+#name{
+  color: #F64740;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+p{
+  font-size: 0.5rem;
+}

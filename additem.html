@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Item</title>
+  <link rel="stylesheet" href="itemform.css">
+</head>
+<body>
+  <div class="card">
+    <div className="addprod">
+        <h1>Add Product</h1>
+        <form>
+          <div>
+            <label for="NameEn">Name (In English): </label>
+            <input type="text" name="NameEn" id="NameEn" required />
+          </div>
+          <div>
+            <label for="Category">Category(English): </label>
+            <select name="Category" id="Category">
+              <option value="select" selected disabled>
+                Select any one
+              </option>
+              <option value="food">Food</option>
+              <option value="stationary">Stationary</option>
+              <option value="vegetables">Vegetables</option>
+            </select>
+          </div>
+          <div>
+            <label for="NameTa">Name (In Tamil): </label>
+            <input type="text" name="NameTa" id="NameTa" required />
+          </div>
+          <div>
+            <label for="Category">Category(Tamil): </label>
+            <select name="Category" id="Category">
+              <option value="select" selected disabled>
+                Select any one
+              </option>
+              <option value="food">Food</option>
+              <option value="stationary">Stationary</option>
+              <option value="vegetables">Vegetables</option>
+            </select>
+          </div>
+          <div>
+            <label for="price">Stock Available: </label>
+            <input type="number" name="price" id="price" required />
+          </div>
+          <div>
+            <label for="Stock">Cost: </label>
+            <input type="number" name="Stock" id="Stock" required />
+          </div>
+          <div>
+            <label for="fileInput">Upload Image</label>
+            <input id="fileInput" name="fileInput" type="file" />
+          </div>
+          <br>
+          <div id="flexbuttons">
+            <input type="submit" value="Submit" name="Submit" id="Submit" class="button" /><br>
+            <input type="button" value="English To Tamil (For auto text conversion of english field to tamil)" name="EtoT" id="EtoT" class="button" />
+          </div>   
+          </form>
+      </div>
+  </div>
+</body>
+</html>
